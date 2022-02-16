@@ -1,4 +1,5 @@
 export const a = {
   name: 'falcon',
-  age: 220
+  age: 220,
+  skill:null
 }
