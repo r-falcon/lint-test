@@ -1,1 +1,4 @@
-export const a = 10
+export const a = {
+  name: 'falcon',
+  age:220
+}
