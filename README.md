@@ -139,4 +139,6 @@ module.exports = {
 
 - git commit 随便写个内容：
   ![示例图片](https://github.com/r-falcon/lint-test/blob/main/src/assets/demo/test-1.png)
-- git 正确提交：[一定要注意在类别冒号后面有空格，且`commit`用双引号]
+- git 正确提交：[一定要注意在类别冒号后面有空格，***并且***`commit`用双引号]
+  ![示例图片](https://github.com/r-falcon/lint-test/blob/main/src/assets/demo/test-2.png)
+  ![示例图片](https://github.com/r-falcon/lint-test/blob/main/src/assets/demo/test-3.png)
