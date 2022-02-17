@@ -134,6 +134,30 @@ module.exports = {
     `npx commitizen init cz-conventional-changelog --save-dev --save-exact`
   - 此时 package.json 的 commit 配置项为：
     ![示例图片](https://github.com/r-falcon/lint-test/blob/main/src/assets/demo/husky-4.png)
+  - 创建 commitlint.config.js 文件,内容如下：
+    ```js
+    module.exports = {
+      extends: ['@commitlint/config-conventional'],
+      rules: {
+        'type-enum': [
+          2,
+          'always',
+          [
+            'feat',
+            'fix',
+            'docs',
+            'style',
+            'refactor',
+            'test',
+            'chore',
+            'revert'
+          ]
+        ],
+        'subject-full-stop': [0, 'never'],
+        'subject-case': [0, 'never']
+      }
+    }
+    ```
 
 ### 测试
 
