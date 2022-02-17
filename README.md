@@ -1,12 +1,7 @@
-# workflow-template
-workflow-template
-这是个人总结工作流模板,学习下如何创建一个工作流,后续会慢慢增加自己所学的工程化内容进来,目前提供功能
-1. `commit` 代码校验,避免错误代码提交
-2. `commit-message` 提交信息校验,提交信息要规范
-3. 提交信息模块是可扩展的,可以查看 `/.cz-config.js` 
+# Vue 3 + Vite
 
-```bash
-npm install
-# or
-yarn
-```
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+## Recommended IDE Setup
+
+- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)

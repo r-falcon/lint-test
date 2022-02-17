@@ -4,12 +4,11 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: ['standard', 'prettier'],
-  parser: '@typescript-eslint/parser',
+  extends: ['eslint:recommended', 'plugin:vue/essential', 'prettier'],
   parserOptions: {
-    ecmaVersion: 13,
+    ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['vue'],
   rules: {}
 }
