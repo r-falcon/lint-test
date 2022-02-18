@@ -106,6 +106,8 @@ module.exports = {
     在 package.json 中添加脚本：`npm set-script prepare "husky install"`
     ![示例图片](https://github.com/r-falcon/lint-test/blob/main/src/assets/demo/husky-1.png)
 
+  - 执行命令`npm run prepare`
+
   - 初始化 husky：
     `npx husky add .husky/pre-commit "npx lint-staged"`
     ![示例图片](https://github.com/r-falcon/lint-test/blob/main/src/assets/demo/husky-2.png)
